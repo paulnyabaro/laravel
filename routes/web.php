@@ -9,6 +9,10 @@ Route::get('/', function () {
     return view('welcome', ["ninjas" => $ninjas]);
 });
 
+Route::get('/ninjas/{id}', function ($id){
+    return view('single', ["id" => $id]);
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
