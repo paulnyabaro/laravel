@@ -4,6 +4,8 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
+    $ninjas = [['name'=>'paul', 'skills'=> 'coding'],['name'=>'paul', 'skills'=> 'coding']];
+
     return view('welcome');
 });
 
