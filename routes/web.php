@@ -4,9 +4,9 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    $ninjas = [['name'=>'paul', 'skills'=> 'coding'],['name'=>'paul', 'skills'=> 'coding']];
+    $ninjas = [["name" => "paul", "skills" => "coding"],["name" => "edada", "skills" => "nono"]];
 
-    return view('welcome');
+    return view('welcome', ["ninjas" => $ninjas]);
 });
 
 Route::get('/dashboard', function () {
