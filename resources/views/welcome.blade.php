@@ -24,7 +24,7 @@
 
     @if($ninjas)
     @foreach($ninjas as $ninja)
-    <p>{{ $ninja["name"] }} is an expert in {{ $ninja["skills"] }}</p>
+    <p>{{ $ninja["name"] }} is an expert in {{ $ninja["skills"] }} <a href="{{ url('/ninjas/') }}">Read more</a></p>
     @endforeach
     @else
     No ninjas available
