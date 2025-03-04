@@ -23,6 +23,12 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ route('login') }}">Log In</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ route('register') }}">Register</a>
+        </li>
       </ul>
     </div>
   </div>
