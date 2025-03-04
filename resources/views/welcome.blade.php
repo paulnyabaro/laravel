@@ -20,7 +20,9 @@
             </style>
         @endif
     </head>
+    <x-navbar />
     <h1>This is the homepage</h1>
+    <x-footer />
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </html>
