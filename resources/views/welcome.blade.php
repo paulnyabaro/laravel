@@ -21,7 +21,12 @@
         @endif
     </head>
     <x-navbar />
-    <h1>This is the homepage</h1>
+    <header class="py-4 py-lg-5">
+        <div class="container">
+            <h1>This is the homepage</h1>
+            
+        </div>
+    </header>
     <x-footer />
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>

@@ -5,7 +5,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
         <li class="nav-item">
           <a class="nav-link" href="#">Home</a>
         </li>
@@ -24,10 +24,14 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('login') }}">Log In</a>
+          <a class="nav-link" href="{{ route('login') }}">
+            <span class="btn btn-outline-primary">Log In</span>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('register') }}">Register</a>
+          <a class="nav-link" href="{{ route('register') }}">
+            <span class="btn btn-warning">Register</span>
+          </a>
         </li>
       </ul>
     </div>
