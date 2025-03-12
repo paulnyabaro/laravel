@@ -1,16 +1,3 @@
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities; */
-
-*{
-    padding: 0;
-    margin: 0;
-}
-.auth-box{
-    background-color: #f7f7f7;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
