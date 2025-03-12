@@ -3,6 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
 .auth-box{
     background-color: #f7f7f7;
     height: 100vh;
@@ -18,7 +27,7 @@
         max-width: 100%;
         border-radius: 0.5rem;
 
-        input,select,textarea{
+        input:not([type="checkbox"]),select,textarea{
             width: 100%;
             max-width: 100%;
             padding: 0.75rem 1rem;
